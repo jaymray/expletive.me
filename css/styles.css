@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html {height:100%;
+}
+body
+{
+height:100%;
+margin:0 auto;
+background:black;
+}
+
+.work {
+padding-top:10px;
+
+}
+
+.container {height:100px;
+background:#f1ecec;
+}
+ .wrapper {
+        height: 100%;
+		margin:auto 0 -100px;
+		width:100%;
+    }
+	.fucker {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.devil {width:60%;
+}
+#profanetext {width:18%;
+margin-left:10%;
+height:30px;
+}
+#press {margin-left:10%;
+}
+#words {margin-left:10%;
+position:relative;
+z-index:800;
+}
+.slogan {font-family: 'Della Respira', serif;
+margin-top:20px;
+position:absolute;
+margin-left:50%;
+padding-right:10%;
+color:#666;
+font-size:2.5em;
+}
+
+	.flow {width:100%;
+	background: rgba(255, 0, 0, 0.5);
+	position:relative;
+	z-index:1;
+	height:auto;
+	}
+.blue {color:white;
+opacity:1;
+}
+.litany {padding: 10px 0px 10px 46px;
+font-size:1.5em;
+}
+.list {padding: 0px 0px 0px 10px;
+line-height:1.5em;
+font-size:1.2em;
+}
+.fbombs {margin-left:10%;
+font-size:1.3em;
+font-family: 'Della Respira', serif;
+margin-top:12px;
+position:relative;
+z-index:1000;
+width:40%;
+}
+.grawlix {width:40px;
+height:39px;
+padding:0px 5px 0px 5px;
+cursor: pointer; cursor: hand;
+}
+.and {padding-right:34px;
+}
+a.add:link {color:#666; text-decoration:none;}      /* unvisited link */
+a.add:visited {color:#666; text-decoration:none;}  /* visited link */
+a.add:hover {color:red; text-decoration:none;}  /* mouse over link */
+a.add:active {color:#666; text-decoration:none;
+}
+a.anchorLink2:link {text-decoration:none;} 
+a.anchorLink2:visited {text-decoration:none;} 
+a.anchorLink2:hover {text-decoration:none;} 
+a.anchorLink2:active {text-decoration:none;} 
+.icons {text-align:center;
+width:95%;
+height:auto;
+position:absolute;
+margin-top:24px;
+}
+.reveal {color:white;
+display:none;
+line-height:1.5em;
+margin-left:10%;
+position:absolute;
+z-index:1200;
+}
+.cause {color:white;
+display:none;
+line-height:1.5em;
+margin-left:10%;
+position:absolute;
+z-index:1200;
+font-size:1.1em;
+width:300px;
+}
+.jay {color:white;
+display:none;
+margin-left:10%;
+position:absolute;
+z-index:1200;
+font-size:1.4em;
+width:300px;
+}
+.privacy {color:white;
+display:none;
+margin-left:10%;
+position:absolute;
+z-index:1200;
+font-size:1.1em;
+width:300px;
+line-height:1.5em;
+}
+
+.notwp {font-size:1.4em;
+}
+.library {margin-left:10%;
+}
+#arrow {width:40px;
+height:37px;
+margin-left:5px;
+}
+#database {width:30px;
+height:30px;
+margin-left:10px;
+margin-top:2px;
+}
+.data {color:white;
+}
+@media (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+#profanetext {width:18%;
+margin-left:5%;
+height:30px;
+}
+#press {margin-left:5%;
+}
+#words {margin-left:5%;
+position:relative;
+z-index:800;
+}
+.slogan {font-family: 'Della Respira', serif;
+margin-top:20px;
+position:absolute;
+margin-left:36%;
+padding-right:5%;
+color:#666;
+font-size:2.5em;
+}	
+
+.fbombs {margin-left:3%;
+margin-top:18px;
+width:40%;
+}
+.and {padding-right:24px;
+}
+}
+@media (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+.slogan {margin-left:40%;
+margin-top:22px;
+}
+.and {padding-right:84px;
+}
+.fbombs {margin-top:20px;
+width:40%;
+}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.slogan {font-size:1.4em;
+     margin-left:54%;
+	 margin-top:8px;
+}
+.list {padding: 0px 0px 0px 10px;
+line-height:1.5em;
+font-size:1em;
+}
+.litany {padding: 10px 46px 10px 46px;
+font-size:1.5em;
+}
+.fbombs {margin-left:5%;
+font-size:.9em;
+font-family: 'Della Respira', serif;
+margin-top:16px;
+width:50%;
+}
+.space {padding-bottom:10px;
+}
+
+#words {font-size:.7em;
+}
+#profanetext {margin-top:4px;
+height:18px;
+margin-left:10%;
+width:30%;
+}
+#press {margin-top:6px;
+}
+}
