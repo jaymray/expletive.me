@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <link rel="icon" 
+      type="image/png" 
+      href="images/wow.png">
+    <meta charset="utf-8">
+    <title>Add Profanity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    textarea {
+      display: block;
+      width: 100%;
+    }
+	</style>
+    <link href="styles.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Della+Respira' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+   <div class="slogan"><img src="images/q.png" class="grawlix q"><img src="images/omg.png" class="grawlix omg"><img src="images/at.png" class="grawlix space at"><img src="images/and.png" class="grawlix and space">Expletive Me</div>
+    <div class="container">
+    <form action="?" method="post">
+    <div class="work">
+        <label for="profanetext" id="words">Type your expletive here</label>
+        <textarea id="profanetext" name="profanetext" rows="3" cols="40"></textarea>
+      </div>
+      <div><input type="submit" value="Add" id="press"></div>
+    </form>
+     <div></div></div>
+    <div id="wrapper">
+    <div class="library"><div class="data">database</div><a href="?profanetext"><img src="images/database-48.png" id="database"></a></div>
+    <p class="cause">expletive.me is a crowdsourcing project for the purpose of compiling a library of offensive language as a resource for developers and interactive installation artists.<br><br>The spirit isn't one of censorship; in some instances -- depending on the project or venue -- there is a necessity to filter user input.</p>
+    <p class="privacy">The only data that I am collecting is the text of submissions.</p>
+    <p class="jay">@jaymray</p>
+    <p class="reveal">PROUDLY <span class="notwp">NOT</span> POWERED BY WORDPRESS<br>
+    THEME EXPLETIVE BY ME</p>
+    <div class="fucker">
+    <img src="images/devil.png" class="devil"></div></div>
+    <!--<div><a href="?profanetext">work motherfucker</a></div>-->
+    <div class="flow"></div>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script>
+	$(document).ready(function() {
+    $(".and").hover(function(){
+    $(".reveal").fadeIn("slow");
+},
+function(){
+    $(".reveal").fadeOut();
+});
+	
+    $(".q").hover(function(){
+    $(".cause").fadeIn("slow");
+},
+function(){
+    $(".cause").fadeOut();
+});
+$(".at").hover(function(){
+    $(".jay").fadeIn("slow");
+},
+function(){
+    $(".jay").fadeOut();
+});
+$(".omg").hover(function(){
+    $(".privacy").fadeIn("slow");
+},
+function(){
+    $(".privacy").fadeOut();
+});
+	});
+</script>
+
+	
+  </body>
+</html>
